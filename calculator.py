@@ -162,11 +162,13 @@ def equal(calculation):
     print("signs solved", calculation)
 
     if "cos(" in calculation:
-        cosinus(calculation)
+        cosinus()
     elif "sin(" in calculation:
         sinus()
     elif "tan(" in calculation:
         tan()
+    elif "^" in calculation:
+        exp()
 
     elif "(" in calculation:
 
@@ -205,8 +207,8 @@ def equal(calculation):
                     array[i] = int(array[i-1])/int(array[i+1])
                     array.pop(i-1)
                     array.pop(i)
-                    calc_input_text.set(array)
                     print("///", array)
+                    calc_input_text.set(array)
                     
                     calc_input_text.set(array)
                     break
