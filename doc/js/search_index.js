@@ -1,0 +1,1 @@
+var search_data = {"index":{"searchIndex":["new.py"],"longSearchIndex":[""],"info":[["new.py","","new_py.html","","<p>SHEBANG &amp; Imports\n<p>#!/usr/bin/python3\n<p>from tkinter import *\n"]]}}
